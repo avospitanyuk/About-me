@@ -2,11 +2,9 @@
   margin: 0 auto;
   min-height: 750px;
   background-image: linear-gradient(90deg,#d4c48a 20%,#2a2c2f 100%);
-  /*display: flex;
-  flex-direction: column;
-  justify-content: center;*/
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
 }
 
 /*

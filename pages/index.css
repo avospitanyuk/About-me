@@ -13,6 +13,7 @@
 @import url(../blocks/welcome/__flex/welcome__flex.css);
 @import url(../blocks/welcome/__title/welcome__title.css);
 @import url(../blocks/welcome/__button/welcome__button.css);
+@import url(../blocks/welcome/__image/welcome__image.css);
 
 @import url(../blocks/acquaintance/acquaintance.css);
 @import url(../blocks/acquaintance/__title/acquaintance__title.css);

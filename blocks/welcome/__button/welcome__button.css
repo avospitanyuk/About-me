@@ -1,7 +1,10 @@
 .welcome__button {
-  margin: 20px 0 0 500px;
+  margin: 0 auto;
   padding: 0;
-  width: 150px;
-  height: 50px;
+  min-width: 150px;
+  min-height: 50px;
   background-color: #E18650;
+  display: block;
+  float: right;
 }
+
