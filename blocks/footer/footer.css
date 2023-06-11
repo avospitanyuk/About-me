@@ -1,4 +1,6 @@
 .footer {
-  height: 50px;
   background-color: #2a2c2f;
+  display: flex;
+  justify-content: space-between;
+  color: #d4c48a;
 }

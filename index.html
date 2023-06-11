@@ -10,11 +10,11 @@
 <body>
     <div class="page">
         <header class="header">
-          <img class="header__logo" src="./images/Снимок_экрана_2023-06-10_в_22_05_56-transformed.png" alt="">
-          <div class="header__links">
+          <img class="header__logo" src="./images/header__logo.png" alt="Лого с инициалами имени и фамилии">
+          <nav class="header__links">
             <a class="header__link" href="#acquaintance">Давай знакомиться</a>
-            <a class="header__link" href="#">Контакты</a>
-          </div>
+            <a class="header__link" href="#contacts">Контакты</a>
+          </nav>
         </header>
         <main>
           <section class="welcome">
@@ -24,30 +24,45 @@
               <button class="welcome__button">Портфолио</button>
             </form>
             </div>
-            <img src="./images/image-welcome.jpg" class="welcome__image">
+            <img src="./images/image-welcome.jpg" class="welcome__image" alt="На фото девушка, которая улыбается и приветсвует у себя на странице">
           </section>
           <section class="acquaintance" id="acquaintance">
             <h2 class="acquaintance__title">Давай знакомиться&#33;</h2>
-            <p class="acquaintance__text">Говорить о себе всегда нелегко, но я попробую</p>
+            <p class="acquaintance__text">Говорить о себе всегда нелегко&#44; но я попробую&#46;</p>
             <ul class="cards">
               <li class="cards__item">
-                <img src="./images/image-education.jpg" alt="" class="cards__image">
+                <img src="./images/image-education.jpg" alt="Фотография девушки возле картины" class="cards__image">
                 <h3 class="cards__title">Где я училась&#63;</h3>
-                <p class="cards__description">По первому образованию я бухгалтер.<br>По Второму экономист. <br> А по третьему искусствоед. </p>
+                <p class="cards__description">По первому образованию я бухгалтер&#46;<br>По второму экономист&#46;<br> А по третьему искусствоед&#46; Весь этот опыт помогает мне в програмировании&#44; сочетая в себе логику и эстетику&#46;</p>
               </li>
               <li class="cards__item">
-                <img src="./images/image-future.jpg" alt="" class="cards__image">
+                <img src="./images/image-future.jpg" alt="Фотография девушки смотрящей в даль" class="cards__image">
                 <h3 class="cards__title">Почему фронтенд&#63;</h3>
-                <p class="cards__description"></p>
+                <p class="cards__description">Я визуал&#46; У меня богатый опыт насмотренности&#46; Ведь профессия искусстоведа дала мне внимательность к деталям и цветовым нюансам&#46; Плюс я пять лет проработала в крупной судоходной компании и знаю что такое "мягкие скилы"&#46; Да и просто мне нравится все&#44; что я делаю&#46;</p>
               </li>
               <li class="cards__item">
-                <img src="./images/IMG_5673.jpg" alt="" class="cards__image">
+                <img src="./images/IMG_5673.jpg" alt="Фотография вдохновленной девушки" class="cards__image">
                 <h3 class="cards__title">Мой опыт</h3>
-                <p class="cards__description"></p>
+                <p class="cards__description">Сейчас я учусь в Skillfactory и скоро в этом разделе появится много интересных проектов&#46;</p>
               </li>
           </section>
         </main>
-        <footer class="footer"></footer>
+        <footer class="footer">
+          <p class="footer__author">&copy;Антонина Воспитанюк</p>
+          <nav id="contacts">
+            <ul class="footer__links">
+              <li>
+                <a class="footer__link" hfer="https://t.me/Avospitanyuk"><img class="footer__logo" src="./images/telegram-logo.png" alt="Иконка-логотип социальной сети телеграмм">Телеграм</a>
+              </li>
+              <li>
+                <a class="footer__link" hfer="https://www.instagram.com/antonina.vospitanyuk/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><img class="footer__logo" src="./images/instagram-logo.png" alt="Иконка-логотип запрещенной в РФ социальной сети инстаграмм">Инстаграм</a>
+              </li>
+              <li>
+                <a class="footer__link" hfer="https://www.facebook.com/panchenko.tonechka?mibextid=LQQJ4d"><img class="footer__logo" src="./images/telegram-logo.png" alt="Иконка-логотип социальной сети фейсбук">Фейсбук</a>
+              </li>
+            </ul>
+          </nav>
+        </footer>
     </div>
 </body>
 </html>
