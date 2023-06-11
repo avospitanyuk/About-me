@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "BoleroScript";
+  src: url(./PlayfairDisplay-BoleroScript/BoleroScript.ttf) format(ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url(./PlayfairDisplay-BoleroScript/PlayfairDisplay-Regular.ttf) format(ttf);
+  font-weight: normal;
+}

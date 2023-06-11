@@ -1,1 +1,26 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/font/font.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/welcome/welcome.css);
+@import url(../blocks/welcome/__flex/welcome__flex.css);
+@import url(../blocks/welcome/__title/welcome__title.css);
+@import url(../blocks/welcome/__button/welcome__button.css);
+
+@import url(../blocks/acquaintance/acquaintance.css);
+@import url(../blocks/acquaintance/__title/acquaintance__title.css);
+@import url(../blocks/acquaintance/__text/acquaintance__text.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+
+@import url(../blocks/footer/footer.css);

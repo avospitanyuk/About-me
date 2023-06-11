@@ -1,0 +1,7 @@
+.welcome__image {
+  margin: 0 auto;
+  max-width: 400px;
+  height: 600px;
+  object-fit: cover;
+  align-self: center;
+}

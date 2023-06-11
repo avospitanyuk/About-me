@@ -9,9 +9,43 @@
 </head>
 <body>
     <div class="page">
-        <header></header>
-        <main></main>
-        <footer></footer>
+        <header class="header">
+          <img class="header__logo" src="./images/Снимок_экрана_2023-06-10_в_22_05_56-transformed.png" alt="">
+          <div class="header__links">
+            <a class="header__link" href="#acquaintance">Давай знакомиться</a>
+            <a class="header__link" href="#">Контакты</a>
+          </div>
+        </header>
+        <main>
+          <section class="welcome">
+            <h1 class="welcome__title">Привет, я Антонина&#33;<br>И я учусь на&nbsp;веб&#150;разработчика&#33;</h1>
+            <!--<img class="welcome__image" src="./images/image-welcom.jpg" alt="Фотография девушки, которая улыбается">-->
+            <form action="https://github.com/avospitanyuk?tab=repositories" target="__blank">
+              <button class="welcome__button">Портфолио</button>
+            </form>
+          </section>
+          <section class="acquaintance" id="acquaintance">
+            <h2 class="acquaintance__title">Давай знакомиться&#33;</h2>
+            <p class="acquaintance__text">Говорить о себе всегда нелегко, но я попробую</p>
+            <ul class="cards">
+              <li class="cards__item">
+                <img src="./images/image-education.jpg" alt="" class="cards__image">
+                <h3 class="cards__title">Где я училась&#63;</h3>
+                <p class="cards__description">По первому образованию я бухгалтер.<br>По Второму экономист. <br> А по третьему искусствоед. </p>
+              </li>
+              <li class="cards__item">
+                <img src="./images/image-future.jpg" alt="" class="cards__image">
+                <h3 class="cards__title">Почему фронтенд&#63;</h3>
+                <p class="cards__description"></p>
+              </li>
+              <li class="cards__item">
+                <img src="./images/IMG_5673.jpg" alt="" class="cards__image">
+                <h3 class="cards__title">Мой опыт</h3>
+                <p class="cards__description"></p>
+              </li>
+          </section>
+        </main>
+        <footer class="footer"></footer>
     </div>
 </body>
 </html>
